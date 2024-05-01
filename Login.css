@@ -1,0 +1,67 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2; /* Set the background color for the entire page */
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Add space between the elements */
+}
+
+.nav-login-cart a {
+  /* Adjust the styles for the "New User" link */
+  color: #007bff; /* Set the link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-login-cart button {
+  width: 20%;
+  background-color: #4CAF50; /* Set the background color for the button */
+  color: #fff; /* Set the text color for the button */
+  border: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.nav-login-cart button:hover {
+  background-color: #45a049; /* Change the background color on hover */
+}
